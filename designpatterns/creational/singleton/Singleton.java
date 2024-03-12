@@ -3,7 +3,7 @@ package com.lld.designpatterns.creational.singleton;
 public final class Singleton {
 
     public static volatile  Singleton instance;
-    public String value;
+    private String value;
 
     private Singleton(String value){
         this.value = value;
